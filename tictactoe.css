@@ -1,0 +1,52 @@
+.board {
+  border-spacing: 0;
+}
+
+.center {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td {
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  border: solid;
+}
+
+td#c1 {
+  border-top: none;
+  border-left: none;
+}
+
+td#c2 {
+  border-top: none;
+}
+
+td#c3 {
+  border-top: none;
+  border-right: none;
+}
+
+td#c4 {
+  border-left: none;
+}
+
+td#c6 {
+  border-right: none;
+}
+
+td#c7 {
+  border-bottom: none;
+  border-left: none;
+}
+
+td#c8 {
+  border-bottom: none;
+}
+
+td#c9 {
+  border-bottom: none;
+  border-right: none;
+}
